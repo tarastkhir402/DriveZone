@@ -1,0 +1,106 @@
+.body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #2D2535;
+            color: white;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #2D2535;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            width: 150px;
+            height: 100px;
+            margin-right: 10px;
+        }
+        .search-box {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        .search-box input {
+            border: 5px;
+
+            outline: none;
+            padding: 5px;
+        }
+        .menu {
+            color:white;
+            font-size:20px;
+            line-height:30px;
+            text-decoration:none;
+            padding:10px;
+            margin:5px;
+        }
+          .menu a {
+            color:white;
+            text-decoration:none;
+
+        }
+        .language {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .login {
+            background-color: white;
+            color: black;
+            padding: 5px 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size:30px;
+        }
+        .login img{
+            width: 60px;
+            height: 60px;
+        }
+        .driv{
+            color:white;
+            font-size:50px;
+        }
+        .lang{
+        color:white;
+            font-size:20px;
+        }
+        .language img {
+            width: 40px;
+            height: 20px;
+            margin-right: 10px;
+        }
+        .slider {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background-color: #1a1a2e;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .arrow {
+            cursor: pointer;
+            font-size: 24px;
+            color: white;
+        }
+        .logos {
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
+        .logos img {
+            width: 80px;
+            height: auto;
+            margin: 0 10px;
+        }
+        .brand-name {
+            text-align: center;
+            font-size: 14px;
+            color: white;
+        }
