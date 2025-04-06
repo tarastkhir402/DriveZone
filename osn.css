@@ -104,3 +104,108 @@
             font-size: 14px;
             color: white;
         }
+        footer {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #0f0f1b;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        footer a {
+            color: #4da8da;
+            text-decoration: none;
+        }
+        .footer-links {
+            margin-top: 10px;
+        }
+        .footer-links a {
+            margin: 0 10px;
+            color: #4da8da;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-info {
+            margin-top: 10px;
+            font-size: 14px;
+
+        }.logos-container {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+                height:160px;
+             background-color: rgba(50, 38, 57, 1);
+            vertical-align:middle;
+        }
+        .logos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .logos img {
+            width: 150px;
+            height: 150px;
+
+        }
+        .audi { color: red; }
+        .bmw { color: white; }
+        .mercedes { color: white; }
+        .nissan { color: silver; }
+        .toyota { color: red; }
+        .hyundai { color: lightblue; }
+
+        .vertical-line {
+              width: 2px;
+              height: 120px;
+              background-color: white;
+              margin: 20px;
+            }
+            .car-cards-container {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content: center;
+                padding: 40px;
+            }
+
+        .car-card {
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 12px;
+            overflow: hidden;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .car-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .car-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .car-details {
+            padding: 15px;
+        }
+
+        .meta {
+            font-size: 14px;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #007bff;
+            margin-top: 10px;
+        }
+            font-size: 14px;
+            color: white;
+        }
