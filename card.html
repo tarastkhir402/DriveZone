@@ -153,17 +153,154 @@
     </div>
   </nav>
 
+<div class="car-cards-container fade-in delay-2">
 
-  <div class="car-cards-container fade-in delay-2">
-<div class="car-card" onclick="goToCarPage('BMW X3 ', '2015', 'автомат', 'дизель 2.0', '21900 $', 'img_10.png')" style="cursor:pointer;">
-    <img src="data:image/jpeg;base64,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" alt="BMW X3 2015" class="car-image">
-      <div class="car-details">
-    <strong>BMW X3 </strong>
-    <div class="meta">2015  |  автомат  |  дизель 2.0</div>
-    <div class="price">21900 $</div>
+       <div class="car-card" onclick="goToCarPage('Toyota Camry', '2019', 'автомат', 'бензин 2.5', '19999 $', 'https://cdn2.riastatic.com/photosnew/auto/photo/toyota_camry__594058937f.webp.png')" style="cursor:pointer;">
+  <img src="https://cdn2.riastatic.com/photosnew/auto/photo/toyota_camry__594058937f.webp.png" alt="BMW X3 2015" class="car-image">
+  <div class="car-details">
+    <strong>Toyota Camry</strong>
+    <div class="meta">2019  |  автомат  |  бензин 2.5</div>
+    <div class="price">19999 $</div>
+  </div>
+</div>
+    <div class="car-card" onclick="goToCarPage('Audi A6 Allroad', '2023', 'автомат', 'дизель 3', '77000 $', 'https://cdn4.riastatic.com/photosnew/auto/photo/audi_a6-allroad__594164439f.webp.png')" style="cursor:pointer;">
+  <img src="https://cdn4.riastatic.com/photosnew/auto/photo/audi_a6-allroad__594164439f.webp.png" alt="BMW X3 2015" class="car-image">
+  <div class="car-details">
+    <strong>Audi A6 Allroad</strong>
+    <div class="meta">2023  |  автомат |  дизель 3</div>
+    <div class="price">77000 $</div>
   </div>
 </div>
 
+    <div class="car-card" onclick="goToCarPage('Hyundai Santa FE', '2013', 'автомат', 'бензин 2.5', '11600 $', 'https://cdn1.riastatic.com/photosnew/auto/photo/hyundai_santa-fe__590264561f.webp.png')" style="cursor:pointer;">
+  <img src="https://cdn1.riastatic.com/photosnew/auto/photo/hyundai_santa-fe__590264561f.webp.png" alt="BMW X3 2015" class="car-image">
+  <div class="car-details">
+    <strong>Hyundai Santa FE</strong>
+    <div class="meta">2013  |  автомат  |  бензин 2.5</div>
+    <div class="price">11600 $</div>
+  </div>
+</div>
+
+    <div class="car-card" onclick="goToCarPage('Nissan Juke', '2011', 'автомат', 'бензин 1.6', '9400 $', 'https://cdn3.riastatic.com/photosnew/auto/photo/nissan_juke__590094943f.webp.png')" style="cursor:pointer;">
+  <img src="https://cdn3.riastatic.com/photosnew/auto/photo/nissan_juke__590094943f.webp.png" alt="BMW X3 2015" class="car-image">
+  <div class="car-details">
+    <strong>Nissan Juke</strong>
+    <div class="meta">2011  |  автомат  |  бензин 1.6</div>
+    <div class="price">9400 $</div>
+  </div>
+</div>
+
+    <div class="car-card" onclick="goToCarPage('Toyota Camry', '2019', 'автомат', 'бензин 2.5', '19999 $', 'https://cdn2.riastatic.com/photosnew/auto/photo/toyota_camry__594058937f.webp.png')" style="cursor:pointer;">
+  <img src="https://cdn2.riastatic.com/photosnew/auto/photo/toyota_camry__594058937f.webp.png" alt="BMW X3 2015" class="car-image">
+  <div class="car-details">
+    <strong>Toyota Camry</strong>
+    <div class="meta">2019  |  автомат  |  бензин 2.5</div>
+    <div class="price">19999 $</div>
+  </div>
+</div>
+</div>
+  <div class="car-cards-container fade-in delay-2">
+
+       <div class="car-card" onclick="goToCarPage('Toyota Camry', '2019', 'автомат', 'бензин 2.5', '19999 $', 'https://cdn2.riastatic.com/photosnew/auto/photo/toyota_camry__594058937f.webp.png')" style="cursor:pointer;">
+  <img src="https://cdn2.riastatic.com/photosnew/auto/photo/toyota_camry__594058937f.webp.png" alt="BMW X3 2015" class="car-image">
+  <div class="car-details">
+    <strong>Toyota Camry</strong>
+    <div class="meta">2019  |  автомат  |  бензин 2.5</div>
+    <div class="price">19999 $</div>
+  </div>
+</div>
+    <div class="car-card" onclick="goToCarPage('Audi A6 Allroad', '2023', 'автомат', 'дизель 3', '77000 $', 'https://cdn4.riastatic.com/photosnew/auto/photo/audi_a6-allroad__594164439f.webp.png')" style="cursor:pointer;">
+  <img src="https://cdn4.riastatic.com/photosnew/auto/photo/audi_a6-allroad__594164439f.webp.png" alt="BMW X3 2015" class="car-image">
+  <div class="car-details">
+    <strong>Audi A6 Allroad</strong>
+    <div class="meta">2023  |  автомат |  дизель 3</div>
+    <div class="price">77000 $</div>
+  </div>
+</div>
+
+    <div class="car-card" onclick="goToCarPage('Hyundai Santa FE', '2013', 'автомат', 'бензин 2.5', '11600 $', 'https://cdn1.riastatic.com/photosnew/auto/photo/hyundai_santa-fe__590264561f.webp.png')" style="cursor:pointer;">
+  <img src="https://cdn1.riastatic.com/photosnew/auto/photo/hyundai_santa-fe__590264561f.webp.png" alt="BMW X3 2015" class="car-image">
+  <div class="car-details">
+    <strong>Hyundai Santa FE</strong>
+    <div class="meta">2013  |  автомат  |  бензин 2.5</div>
+    <div class="price">11600 $</div>
+  </div>
+</div>
+
+    <div class="car-card" onclick="goToCarPage('Nissan Juke', '2011', 'автомат', 'бензин 1.6', '9400 $', 'https://cdn3.riastatic.com/photosnew/auto/photo/nissan_juke__590094943f.webp.png')" style="cursor:pointer;">
+  <img src="https://cdn3.riastatic.com/photosnew/auto/photo/nissan_juke__590094943f.webp.png" alt="BMW X3 2015" class="car-image">
+  <div class="car-details">
+    <strong>Nissan Juke</strong>
+    <div class="meta">2011  |  автомат  |  бензин 1.6</div>
+    <div class="price">9400 $</div>
+  </div>
+</div>
+
+    <div class="car-card" onclick="goToCarPage('Toyota Camry', '2019', 'автомат', 'бензин 2.5', '19999 $', 'https://cdn2.riastatic.com/photosnew/auto/photo/toyota_camry__594058937f.webp.png')" style="cursor:pointer;">
+  <img src="https://cdn2.riastatic.com/photosnew/auto/photo/toyota_camry__594058937f.webp.png" alt="BMW X3 2015" class="car-image">
+  <div class="car-details">
+    <strong>Toyota Camry</strong>
+    <div class="meta">2019  |  автомат  |  бензин 2.5</div>
+    <div class="price">19999 $</div>
+  </div>
+</div>
+</div>
+  <div class="car-cards-container fade-in delay-2">
+
+       <div class="car-card" onclick="goToCarPage('Toyota Camry', '2019', 'автомат', 'бензин 2.5', '19999 $', 'https://cdn2.riastatic.com/photosnew/auto/photo/toyota_camry__594058937f.webp.png')" style="cursor:pointer;">
+  <img src="https://cdn2.riastatic.com/photosnew/auto/photo/toyota_camry__594058937f.webp.png" alt="BMW X3 2015" class="car-image">
+  <div class="car-details">
+    <strong>Toyota Camry</strong>
+    <div class="meta">2019  |  автомат  |  бензин 2.5</div>
+    <div class="price">19999 $</div>
+  </div>
+</div>
+    <div class="car-card" onclick="goToCarPage('Audi A6 Allroad', '2023', 'автомат', 'дизель 3', '77000 $', 'https://cdn4.riastatic.com/photosnew/auto/photo/audi_a6-allroad__594164439f.webp.png')" style="cursor:pointer;">
+  <img src="https://cdn4.riastatic.com/photosnew/auto/photo/audi_a6-allroad__594164439f.webp.png" alt="BMW X3 2015" class="car-image">
+  <div class="car-details">
+    <strong>Audi A6 Allroad</strong>
+    <div class="meta">2023  |  автомат |  дизель 3</div>
+    <div class="price">77000 $</div>
+  </div>
+</div>
+
+    <div class="car-card" onclick="goToCarPage('Hyundai Santa FE', '2013', 'автомат', 'бензин 2.5', '11600 $', 'https://cdn1.riastatic.com/photosnew/auto/photo/hyundai_santa-fe__590264561f.webp.png')" style="cursor:pointer;">
+  <img src="https://cdn1.riastatic.com/photosnew/auto/photo/hyundai_santa-fe__590264561f.webp.png" alt="BMW X3 2015" class="car-image">
+  <div class="car-details">
+    <strong>Hyundai Santa FE</strong>
+    <div class="meta">2013  |  автомат  |  бензин 2.5</div>
+    <div class="price">11600 $</div>
+  </div>
+</div>
+
+    <div class="car-card" onclick="goToCarPage('Nissan Juke', '2011', 'автомат', 'бензин 1.6', '9400 $', 'https://cdn3.riastatic.com/photosnew/auto/photo/nissan_juke__590094943f.webp.png')" style="cursor:pointer;">
+  <img src="https://cdn3.riastatic.com/photosnew/auto/photo/nissan_juke__590094943f.webp.png" alt="BMW X3 2015" class="car-image">
+  <div class="car-details">
+    <strong>Nissan Juke</strong>
+    <div class="meta">2011  |  автомат  |  бензин 1.6</div>
+    <div class="price">9400 $</div>
+  </div>
+</div>
+
+    <div class="car-card" onclick="goToCarPage('Toyota Camry', '2019', 'автомат', 'бензин 2.5', '19999 $', 'https://cdn2.riastatic.com/photosnew/auto/photo/toyota_camry__594058937f.webp.png')" style="cursor:pointer;">
+  <img src="https://cdn2.riastatic.com/photosnew/auto/photo/toyota_camry__594058937f.webp.png" alt="BMW X3 2015" class="car-image">
+  <div class="car-details">
+    <strong>Toyota Camry</strong>
+    <div class="meta">2019  |  автомат  |  бензин 2.5</div>
+    <div class="price">19999 $</div>
+  </div>
+</div>
+</div>
+  <div class="car-cards-container fade-in delay-2">
+
+       <div class="car-card" onclick="goToCarPage('Toyota Camry', '2019', 'автомат', 'бензин 2.5', '19999 $', 'https://cdn2.riastatic.com/photosnew/auto/photo/toyota_camry__594058937f.webp.png')" style="cursor:pointer;">
+  <img src="https://cdn2.riastatic.com/photosnew/auto/photo/toyota_camry__594058937f.webp.png" alt="BMW X3 2015" class="car-image">
+  <div class="car-details">
+    <strong>Toyota Camry</strong>
+    <div class="meta">2019  |  автомат  |  бензин 2.5</div>
+    <div class="price">19999 $</div>
+  </div>
+</div>
     <div class="car-card" onclick="goToCarPage('Audi A6 Allroad', '2023', 'автомат', 'дизель 3', '77000 $', 'https://cdn4.riastatic.com/photosnew/auto/photo/audi_a6-allroad__594164439f.webp.png')" style="cursor:pointer;">
   <img src="https://cdn4.riastatic.com/photosnew/auto/photo/audi_a6-allroad__594164439f.webp.png" alt="BMW X3 2015" class="car-image">
   <div class="car-details">
